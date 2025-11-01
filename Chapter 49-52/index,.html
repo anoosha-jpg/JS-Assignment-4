@@ -3,10 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Chapter 49-52</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <!-- Question 1 (start) -->
+
+    <h1 style="text-align: center;">Assignment 1</h1>
+
+    <form id="signupForm">
+        <h1>Signup Form</h1>
+        <label>Name:</label>
+        <input type="text" id="name" placeholder="Enter your name" required><br><br>
+
+        <label>Email:</label>
+        <input type="email" id="email" placeholder="Enter your email" required><br><br>
+
+        <label>Password:</label>
+        <input type="password" id="password" placeholder="Enter your password" required><br><br>
+
+        <button type="submit">Submit</button>
+
+        <div class="result-box">
+            <h3>Submitted Data:</h3>
+            <p id="result"></p>
+        </div>
+    </form>
+
+    <!-- End -->
+
+
+    <!-- Question 2 (start) -->
+
+    <h1 style="text-align: center;">Assignment 2</h1>
+    <div class="content">
+        <h2 style="text-decoration: underline;">The Power of Kindness:</h2>
+        <p id="para">Once upon a time, in a small village, there lived a boy named Arif. He was known for being kind to
+            everyone
+            <a href="JavaScript:void(0)" onclick="readMore()">Read more...</a>
+        </p>
+    </div>
+
+    <!-- End -->
+
+
+    <!-- Question 3 (start) -->
+   
+    <h1 style="text-align: center;">Assignment 3</h1>
+    <div class="main-container">
+    <h2 class="heading">Student Record System</h2>
+
+    <form id="stuForm" class="entry-box">
+      <input type="text" id="stuName" placeholder="Student Name" required>
+      <input type="number" id="stuAge" placeholder="Age" required>
+      <input type="text" id="stuGrade" placeholder="Grade" required>
+      <button type="submit" class="add-btn">Add Record</button>
+    </form>
+
+    <table id="stuTable" class="data-table">
+      <thead>
+        <tr>
+          <th>Full Name</th>
+          <th>Age</th>
+          <th>Grade</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <div id="editSection" class="edit-area hide">
+      <h3 class="edit-title">Update Student Info</h3>
+      <input type="text" id="updName">
+      <input type="number" id="updAge">
+      <input type="text" id="updGrade">
+      <button id="updBtn" class="save-btn">Save Changes</button>
+    </div>
+  </div>
+
+    <!-- End -->
+
+
+
     <!-- JS Link -->
-     <script src="./index.js"></script>
+    <script src="./index.js"></script>
 </body>
 </html>

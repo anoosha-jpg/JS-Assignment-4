@@ -3,10 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Chapter 43-48</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <!-- Question 1 (start) -->
+
+    <a href="#" onclick="showAlert()">Click Here</a>
+    
+    <!-- End -->
+
+    <!-- Question 2 (start) -->
+
+    <img src="https://g-mart.pk/wp-content/uploads/Samsung-Galaxy-S26-1-438x593.jpg" alt="mobile" onclick="showMsg()">
+    <img src="https://g-mart.pk/wp-content/uploads/Samsung-Galaxy-S25-1-438x593.jpg" alt="mobile" onclick="showMsg()">
+    <img src="https://g-mart.pk/wp-content/uploads/Samsung-Galaxy-M34-5G-438x593.jpg" alt="mobile" onclick="showMsg()">
+
+    <!-- End -->
+
+    <!-- Question 3 (start) -->
+
+    <h2 style="text-align:center;">Student Records</h2>
+
+    <table id="studentTable">
+        <tr>
+            <th>Index</th>
+            <th>Name</th>
+            <th>Class</th>
+            <th>Action</th>
+        </tr>
+    </table>
+
+    <!-- End -->
+
+    <!-- Question 4 (start)-->
+    <!-- Display an image in browser. Change the picture on mouseover and set the first picture on mouseout. -->
+
+    <img
+    class="image"
+    src="./pexels-ahmad-malulein-1725919878-27966251.jpg" alt="sky"
+    onmouseover="src ='pexels-marius-dubost-2154685620-33430991.jpg'"
+    onmouseout="src='pexels-ahmad-malulein-1725919878-27966251.jpg'">
+
+    <!-- End -->
+
+
+    <!-- Question 5 (start) -->
+    <!-- Show a counter in browser. Counter should increase on click on increase button and decrease on click on decrease button. And show updated counter value in browser. -->
+     
+    <div class="counter">
+    <h2>Counter: <span id="count">0</span></h2>
+
+    <button onclick="count.innerText=parseInt(count.innerText)+1">Increase</button>
+    <button onclick="count.innerText=parseInt(count.innerText)-1">Decrease</button>
+    </div>
+
+    <!-- End -->
+
+
     <!-- JS Link -->
-     <script src="./index.js"></script>
+    <script src="./index.js"></script>
 </body>
 </html>

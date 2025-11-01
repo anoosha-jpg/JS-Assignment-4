@@ -1,0 +1,70 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: auto;  
+}
+
+a {
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    margin: 20px auto;
+    padding: 10px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 150px;
+    height: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 20px auto;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+button {
+    padding: 4px 10px;
+    cursor: pointer;
+}
+
+.image{
+    margin: 70px auto;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+}
+
+.counter{
+    text-align: center;
+}
+
+.counter h2{
+    color: rgb(235, 12, 86);
+    border: none;
+    border-radius: 15px;
+    font-size: 25px;
+    
+}
+.counter button{
+    background-color: palevioletred;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    width: 150px;
+    font-size: 15px;
+}
